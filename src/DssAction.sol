@@ -22,9 +22,9 @@ pragma solidity ^0.6.12;
 import { DssExecLib } from "./DssExecLib.sol";
 import { CollateralOpts } from "./CollateralOpts.sol";
 
-interface OracleLike {
-    function src() external view returns (address);
-}
+// interface OracleLike {
+//     function src() external view returns (address);
+// }
 
 abstract contract DssAction {
 
